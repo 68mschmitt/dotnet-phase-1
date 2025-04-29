@@ -17,7 +17,7 @@ The plan is organized into 3 focus areas: **Async & Memory Performance**, **Arch
 - `ConfigureAwait(false)` and sync context behavior
 
 ### ✅ Hands-On Tasks
-- [ ] Write a method that parses and transforms a byte array using `Span<byte>` with no allocations
+- [x] Write a method that parses and transforms a byte array using `Span<byte>` with no allocations
 - [ ] Create a cancellable async method using `CancellationToken` and `CancellationTokenSource`
 - [ ] Refactor an async method to avoid context capture using `ConfigureAwait(false)`
 - [ ] Use `Lazy<T>` to defer initialization of an expensive resource
