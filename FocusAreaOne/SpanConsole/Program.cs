@@ -5,9 +5,9 @@ using System.Diagnostics;
 
 namespace SpanConsole;
 
-public partial class Program
+internal class Program
 {
-    public static void Main()
+    private static void Main()
     {
         // Heap based solution
         CowSay("Heap", SpanFromArrayHeapBased());
