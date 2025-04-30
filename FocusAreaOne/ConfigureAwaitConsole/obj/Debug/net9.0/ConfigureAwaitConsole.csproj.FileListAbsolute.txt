@@ -1,0 +1,15 @@
+/home/mschmitt/projects/dotnet-phase-1/FocusAreaOne/ConfigureAwaitConsole/bin/Debug/net9.0/ConfigureAwaitConsole
+/home/mschmitt/projects/dotnet-phase-1/FocusAreaOne/ConfigureAwaitConsole/bin/Debug/net9.0/ConfigureAwaitConsole.deps.json
+/home/mschmitt/projects/dotnet-phase-1/FocusAreaOne/ConfigureAwaitConsole/bin/Debug/net9.0/ConfigureAwaitConsole.runtimeconfig.json
+/home/mschmitt/projects/dotnet-phase-1/FocusAreaOne/ConfigureAwaitConsole/bin/Debug/net9.0/ConfigureAwaitConsole.dll
+/home/mschmitt/projects/dotnet-phase-1/FocusAreaOne/ConfigureAwaitConsole/bin/Debug/net9.0/ConfigureAwaitConsole.pdb
+/home/mschmitt/projects/dotnet-phase-1/FocusAreaOne/ConfigureAwaitConsole/obj/Debug/net9.0/ConfigureAwaitConsole.GeneratedMSBuildEditorConfig.editorconfig
+/home/mschmitt/projects/dotnet-phase-1/FocusAreaOne/ConfigureAwaitConsole/obj/Debug/net9.0/ConfigureAwaitConsole.AssemblyInfoInputs.cache
+/home/mschmitt/projects/dotnet-phase-1/FocusAreaOne/ConfigureAwaitConsole/obj/Debug/net9.0/ConfigureAwaitConsole.AssemblyInfo.cs
+/home/mschmitt/projects/dotnet-phase-1/FocusAreaOne/ConfigureAwaitConsole/obj/Debug/net9.0/ConfigureAwaitConsole.csproj.CoreCompileInputs.cache
+/home/mschmitt/projects/dotnet-phase-1/FocusAreaOne/ConfigureAwaitConsole/obj/Debug/net9.0/ConfigureAwaitConsole.sourcelink.json
+/home/mschmitt/projects/dotnet-phase-1/FocusAreaOne/ConfigureAwaitConsole/obj/Debug/net9.0/ConfigureAwaitConsole.dll
+/home/mschmitt/projects/dotnet-phase-1/FocusAreaOne/ConfigureAwaitConsole/obj/Debug/net9.0/refint/ConfigureAwaitConsole.dll
+/home/mschmitt/projects/dotnet-phase-1/FocusAreaOne/ConfigureAwaitConsole/obj/Debug/net9.0/ConfigureAwaitConsole.pdb
+/home/mschmitt/projects/dotnet-phase-1/FocusAreaOne/ConfigureAwaitConsole/obj/Debug/net9.0/ConfigureAwaitConsole.genruntimeconfig.cache
+/home/mschmitt/projects/dotnet-phase-1/FocusAreaOne/ConfigureAwaitConsole/obj/Debug/net9.0/ref/ConfigureAwaitConsole.dll
