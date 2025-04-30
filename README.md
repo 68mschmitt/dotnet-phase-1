@@ -20,7 +20,7 @@ The plan is organized into 3 focus areas: **Async & Memory Performance**, **Arch
 - [x] Write a method that parses and transforms a byte array using `Span<byte>` with no allocations
 - [x] Create a cancellable async method using `CancellationToken` and `CancellationTokenSource`
 - [x] Refactor an async method to avoid context capture using `ConfigureAwait(false)`
-- [ ] Use `Lazy<T>` to defer initialization of an expensive resource
+- [x] Use `Lazy<T>` to defer initialization of an expensive resource
 - [ ] Explore scenarios where `ValueTask` offers performance benefits
 
 ### 📚 Learning Resources

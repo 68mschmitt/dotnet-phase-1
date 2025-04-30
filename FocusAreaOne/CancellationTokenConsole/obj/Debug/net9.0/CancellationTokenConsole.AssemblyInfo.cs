@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CancellationTokenConsole")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a290ca58dd266a54f26d194758589d349dd60b76")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c159fed7489c114c4de04bc0f81084dc2b79af95")]
 [assembly: System.Reflection.AssemblyProductAttribute("CancellationTokenConsole")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CancellationTokenConsole")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

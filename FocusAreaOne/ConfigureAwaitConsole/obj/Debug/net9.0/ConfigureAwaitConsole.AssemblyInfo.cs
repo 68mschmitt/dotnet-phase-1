@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ConfigureAwaitConsole")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a6e9983e6e5dd2675a46a98e95e328cf65625060")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c159fed7489c114c4de04bc0f81084dc2b79af95")]
 [assembly: System.Reflection.AssemblyProductAttribute("ConfigureAwaitConsole")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ConfigureAwaitConsole")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
