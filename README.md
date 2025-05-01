@@ -21,7 +21,7 @@ The plan is organized into 3 focus areas: **Async & Memory Performance**, **Arch
 - [x] Create a cancellable async method using `CancellationToken` and `CancellationTokenSource`
 - [x] Refactor an async method to avoid context capture using `ConfigureAwait(false)`
 - [x] Use `Lazy<T>` to defer initialization of an expensive resource
-- [ ] Explore scenarios where `ValueTask` offers performance benefits
+- [x] Explore scenarios where `ValueTask` offers performance benefits
 
 ### 📚 Learning Resources
 - 🔗 [Microsoft Docs: Span<T>](https://learn.microsoft.com/en-us/dotnet/api/system.span-1)
