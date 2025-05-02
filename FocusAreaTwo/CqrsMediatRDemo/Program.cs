@@ -1,49 +1,37 @@
+using CqrsMediatRDemo.Application.Commands.Orders;
+using CqrsMediatRDemo.Application.Commands.Orders.CreateOrder;
 using CqrsMediatRDemo.Application.Interfaces;
-using CqrsMediatRDemo.Domain;
 using CqrsMediatRDemo.Infrastructure.Persistence.Mock;
 using MediatR;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-builder.Services.AddOpenApi();
-builder.Services.AddMediatR(typeof(Program));
+// Add services to the container
+builder.Services.AddControllers();
 
+// Add MediatR
+// typeof(CreateOrderCommand).Assembly tells MediatR where to scan for handlers
+builder.Services.AddMediatR(typeof(CreateOrderCommand).Assembly);
+
+// Register the repository service (mock for now)
 builder.Services.AddSingleton<IOrderRepository, MockOrderRepository>();
+
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.MapOpenApi();
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+// Enable routing and controller mapping
+app.UseRouting();
 
-var summaries = new[]
-{
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
+app.UseAuthorization();
 
-app.MapGet("/weatherforecast", () =>
-{
-    var forecast =  Enumerable.Range(1, 5).Select(index =>
-        new WeatherForecast
-        (
-            DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-            Random.Shared.Next(-20, 55),
-            summaries[Random.Shared.Next(summaries.Length)]
-        ))
-        .ToArray();
-    return forecast;
-})
-.WithName("GetWeatherForecast");
+app.MapControllers();
 
 app.Run();
-
-record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}
