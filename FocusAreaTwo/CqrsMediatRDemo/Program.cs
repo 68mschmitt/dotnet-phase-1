@@ -1,3 +1,6 @@
+using CqrsMediatRDemo.Application.Interfaces;
+using CqrsMediatRDemo.Domain;
+using CqrsMediatRDemo.Infrastructure.Persistence.Mock;
 using MediatR;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -6,6 +9,8 @@ var builder = WebApplication.CreateBuilder(args);
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 builder.Services.AddMediatR(typeof(Program));
+
+builder.Services.AddSingleton<IOrderRepository, MockOrderRepository>();
 
 var app = builder.Build();
 
