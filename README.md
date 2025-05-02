@@ -44,7 +44,7 @@ The plan is organized into 3 focus areas: **Async & Memory Performance**, **Arch
 - Clean Architecture layering
 
 ### ✅ Hands-On Tasks
-- [ ] Build a small ASP.NET Core app using MediatR and CQRS
+- [x] Build a small ASP.NET Core app using MediatR and CQRS
 - [ ] Implement an `IRepository<T>` abstraction and swap in-memory vs database implementations
 - [ ] Apply Open/Closed Principle to a class that uses a strategy pattern
 - [ ] Write unit tests for a command handler using MediatR + mocking dependencies
