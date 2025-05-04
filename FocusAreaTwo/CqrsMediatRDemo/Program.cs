@@ -1,4 +1,3 @@
-using CqrsMediatRDemo.Application.Commands.Orders;
 using CqrsMediatRDemo.Application.Commands.Orders.CreateOrder;
 using CqrsMediatRDemo.Application.Interfaces;
 using CqrsMediatRDemo.Infrastructure.Persistence.Mock;

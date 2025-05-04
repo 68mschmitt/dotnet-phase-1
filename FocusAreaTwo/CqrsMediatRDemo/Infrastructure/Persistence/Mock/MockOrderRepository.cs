@@ -7,20 +7,21 @@ public class MockOrderRepository : IOrderRepository
 {
     private readonly List<Order> _orders = [];
 
-    public Task<Guid> AddAsync(Order order)
+    public ValueTask<Guid> AddAsync(Order order)
     {
         order.Id = Guid.NewGuid();
         _orders.Add(order);
-        return Task.FromResult(order.Id);
+
+        return new ValueTask<Guid>(order.Id);
     }
 
-    public Task<IEnumerable<Order>> GetAllAsync()
+    public ValueTask<IEnumerable<Order>> GetAllAsync()
     {
-        return Task.FromResult(_orders.AsEnumerable());
+        return new ValueTask<IEnumerable<Order>>(_orders.AsEnumerable());
     }
 
-    public Task<Order?> GetByIdAsync(Guid id)
+    public ValueTask<Order?> GetByIdAsync(Guid id)
     {
-        return Task.FromResult(_orders.FirstOrDefault(o => o.Id == id));
+        return new ValueTask<Order?>(_orders.FirstOrDefault(o => o.Id == id));
     }
 }

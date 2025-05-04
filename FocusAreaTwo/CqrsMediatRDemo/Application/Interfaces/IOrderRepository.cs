@@ -4,9 +4,9 @@ namespace CqrsMediatRDemo.Application.Interfaces;
 
 public interface IOrderRepository
 {
-    Task<Order?> GetByIdAsync(Guid id);
+    ValueTask<Order?> GetByIdAsync(Guid id);
 
-    Task<IEnumerable<Order>> GetAllAsync();
+    ValueTask<IEnumerable<Order>> GetAllAsync();
 
-    Task<Guid> AddAsync(Order order);
+    ValueTask<Guid> AddAsync(Order order);
 }
